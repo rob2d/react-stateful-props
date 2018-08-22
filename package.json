@@ -1,0 +1,23 @@
+{
+  "name": "react-stateful-props",
+  "version": "0.0.1",
+  "description": "HOC for components to implement a state machine system so props can conveniently override a component their own props or declarative behaviors -- driven by a need for better DOM animation systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "HOC",
+    "State",
+    "system",
+    "State",
+    "Props",
+    "Stateful-Props"
+  ],
+  "author": "Robert Concepcion III",
+  "license": "ISC",
+  "dependencies": {
+    "recompose": "^0.28.2"
+  }
+}
