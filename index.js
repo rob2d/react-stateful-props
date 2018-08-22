@@ -30,13 +30,7 @@ export const withStatefulProps = ( WrappedComponent, asNonPure=false ) => {
         componentWillMount () {
             this.processProps(this.props);
         }
-        componentDidMount () {
-            this.hasMounted = true;
-        }
-
-        componentWillUnmount () {
-            this.hasMounted = false;
-        }
+        
         render () {
             return (
                 <WrappedComponent
